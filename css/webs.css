@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.nav__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 150px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list li {
+    position: relative;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+.nav__list li a {
+    text-decoration: none;
+    color: #0E0E0E;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    transition: 0.3s ease;
+}
+.nav__list li a:hover,
+.nav__list li a.active{
+    font-weight: bold;
+}
+.nav__list li a.active::after{
+    content: "";
+    width: 32px;
+    height: 5.33px;
+    border-radius: 5px;
+    background-color: black;
+    position: absolute;
+    bottom: -4px;
+    left: 12px;
+}
+.nav__close{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 18px;
+}
