@@ -115,7 +115,7 @@ body {
     border-radius: 50px;
 }
 
-#underline {
+#underline1 {
     width: 289px;
     height: 4px;
     flex-shrink: 0;
@@ -190,7 +190,7 @@ body {
     color: rgb(0, 0, 0);
 }
 
-.underline1 {
+.underline2 {
     width: 289px;
     height: 4px;
     border-radius: 4px;
@@ -200,6 +200,12 @@ body {
 }
 
 .row1 {
+    display: flex;
+    margin-top: 64px;
+    gap: 33px;
+}
+
+.row2 {
     display: flex;
     margin-top: 64px;
     gap: 33px;
@@ -325,7 +331,7 @@ body {
 
 .title1 {
     width: auto;
-    margin: 150px 150px;
+    margin: 100px 150px;
 }
 
 .title1 h3,
@@ -351,13 +357,14 @@ h1 {
     line-height: normal;
 }
 
-#underline1 {
+#underline3 {
     width: 170px;
     height: 4px;
     border-radius: 4px;
     background: #FFF;
 }
-#expBtn{
+
+#expBtn {
     width: 71px;
     height: 24px;
     display: flex;
@@ -368,7 +375,64 @@ h1 {
     border: 2px solid #FFF;
     margin-top: 15%;
 }
-#expBtn:hover{
+
+#expBtn:hover {
     background-color: black;
     color: white;
+}
+
+.underline4 {
+    width: 225px;
+    height: 4px;
+    border-radius: 4px;
+    background: #000;
+    position: relative;
+    left: 25%;
+}
+
+.tutorial {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 56px;
+    padding: 7px;
+}
+
+.tutorial img {
+    width: auto;
+    height: 170px;
+    border-radius: 30px;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.tutorialTitle h1 {
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 24px;
+}
+.tutorialPrice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 48px;
+}
+.tutorialPrice h1{
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.tutorialGetitnow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    margin: 15px 0px;
 }
