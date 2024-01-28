@@ -189,12 +189,6 @@ body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
-.card{
-    transition: transform .2s;
-}
-.card:hover{
-    transform: scale(1.1);
-}
 .underline1 {
     width: 289px;
     height: 4px;
