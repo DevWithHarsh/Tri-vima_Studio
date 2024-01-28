@@ -144,7 +144,7 @@ body {
     color: white;
 }
 
-#ractangles {
+#ractangles1 {
     position: absolute;
     top: 116px;
     right: 0px;
@@ -189,6 +189,7 @@ body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
+
 .underline1 {
     width: 289px;
     height: 4px;
@@ -197,6 +198,7 @@ body {
     position: relative;
     left: 43%;
 }
+
 .row1 {
     display: flex;
     margin-top: 64px;
@@ -284,17 +286,89 @@ body {
     border: 2px solid rgb(0, 0, 0);
     border-radius: 56px;
 }
-.productContent{
+
+.productContent {
     padding: 46px;
 }
-.productImg{
+
+.productImg {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .product2 img {
     width: auto;
     height: 500px;
     border-radius: 30px;
     margin-left: 15%;
+}
+
+.digitalWorld {
+    background-color: #000;
+    border-radius: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img_Ractangle img {
+    width: auto;
+    height: 430px;
+    border-radius: 56px;
+}
+
+#ractangles2 {
+    position: absolute;
+    right: 0%;
+}
+
+.title1 {
+    width: auto;
+    margin: 150px 150px;
+}
+
+.title1 h3,
+h1 {
+    color: #FFF;
+}
+
+.title1 h3 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.title1 h1 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#underline1 {
+    width: 170px;
+    height: 4px;
+    border-radius: 4px;
+    background: #FFF;
+}
+#expBtn{
+    width: 71px;
+    height: 24px;
+    display: flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 64px;
+    border: 2px solid #FFF;
+    margin-top: 15%;
+}
+#expBtn:hover{
+    background-color: black;
+    color: white;
 }
