@@ -445,14 +445,25 @@ h1 {
     margin: 15px 0px;
 }
 
-.footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.footer{
     background-color: black;
     border-radius: 56px;
+    padding: 6% 0%;
 }
-
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footerTri-vima{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
 .Tri-vimaStudio {
     background-color: black;
     width: 401px;
@@ -469,6 +480,7 @@ h1 {
 
 .logo_Title {
     display: flex;
+    margin-bottom: 5%;
 }
 
 .logo_Title h1 {
@@ -541,9 +553,21 @@ h1 {
     line-height: 120%;
     text-transform: capitalize;
 }
-
+.contactUsContent{
+    margin-top: 10%;
+}
 .weAreInContent h2 {
     color: #555;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 250%;
+    text-transform: capitalize;
+}
+
+.weAreInContent h2:hover {
+    color: #FFF;
     font-family: "Open Sans";
     font-size: 18px;
     font-style: normal;
