@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Inter:wght@300&family=Open+Sans:wght@800&display=swap');
 
 * {
     margin: 0;
@@ -287,6 +288,10 @@ body {
     color: rgb(0, 0, 0);
 }
 
+.card:hover {
+    border: 3px solid black;
+}
+
 .product2 {
     display: flex;
     border: 2px solid rgb(0, 0, 0);
@@ -414,13 +419,15 @@ h1 {
     line-height: normal;
     padding-top: 24px;
 }
-.tutorialPrice{
+
+.tutorialPrice {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 48px;
 }
-.tutorialPrice h1{
+
+.tutorialPrice h1 {
     color: #000;
     text-align: center;
     font-family: "Open Sans";
@@ -429,10 +436,118 @@ h1 {
     font-weight: 700;
     line-height: normal;
 }
-.tutorialGetitnow{
+
+.tutorialGetitnow {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px 0px;
     margin: 15px 0px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    border-radius: 56px;
+}
+
+.Tri-vimaStudio {
+    background-color: black;
+    width: 401px;
+}
+
+.Tri-vimaStudio p {
+    color: #555;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.logo_Title {
+    display: flex;
+}
+
+.logo_Title h1 {
+    color: #FFF;
+    font-family: 'Exo', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.getHelpTitle h1 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.getHelp {
+    background-color: black;
+}
+
+.getHelpContent h2 {
+    color: #555;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 250%;
+    text-transform: capitalize;
+}
+
+.getHelpContent h2:hover {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 250%;
+    text-transform: capitalize;
+}
+
+.weAreIn {
+    background-color: black;
+}
+
+.weAreInTtitle h1 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.contactUs {
+    background-color: black;
+}
+
+.contactUs h1 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.weAreInContent h2 {
+    color: #555;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 250%;
+    text-transform: capitalize;
 }
