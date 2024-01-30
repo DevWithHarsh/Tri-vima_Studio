@@ -445,25 +445,29 @@ h1 {
     margin: 15px 0px;
 }
 
-.footer{
+.footer {
     background-color: black;
     border-radius: 56px;
     padding: 6% 0%;
 }
-.container{
+
+.container {
     max-width: 1170px;
     margin: auto;
 }
-.row{
+
+.row {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.footerTri-vima{
+
+.footerTri-vima {
     display: flex;
     align-items: center;
     margin-left: 5%;
 }
+
 .Tri-vimaStudio {
     background-color: black;
     width: 401px;
@@ -543,7 +547,12 @@ h1 {
 .contactUs {
     background-color: black;
 }
-
+.footerSvg path{
+    fill: #555555;
+}
+.footerSvg path:hover {
+    fill: #FFFFFF;
+}
 .contactUs h1 {
     color: #FFF;
     font-family: "Open Sans";
@@ -553,9 +562,11 @@ h1 {
     line-height: 120%;
     text-transform: capitalize;
 }
-.contactUsContent{
+
+.contactUsContent {
     margin-top: 10%;
 }
+
 .weAreInContent h2 {
     color: #555;
     font-family: "Open Sans";
@@ -574,4 +585,20 @@ h1 {
     font-weight: 500;
     line-height: 250%;
     text-transform: capitalize;
+}
+
+.copyrights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.copyrightsTri-vima h1 {
+    color: #858585;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
