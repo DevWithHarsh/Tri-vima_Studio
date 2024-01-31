@@ -353,14 +353,17 @@ h1 {
     font-weight: 300;
     line-height: normal;
 }
+
 .title2 {
     width: auto;
     margin: 100px 150px;
 }
+
 .title2 h3,
 h1 {
     color: #FFF;
 }
+
 .title2 h3 {
     color: #FFF;
     font-family: "Open Sans";
@@ -369,7 +372,8 @@ h1 {
     font-weight: 300;
     line-height: normal;
 }
-.title2 h1{
+
+.title2 h1 {
     color: #FFF;
     font-family: "Open Sans";
     font-size: 44px;
@@ -377,6 +381,7 @@ h1 {
     font-weight: 700;
     line-height: normal;
 }
+
 .title1 h1 {
     color: #FFF;
     font-family: "Open Sans";
@@ -502,6 +507,49 @@ h1 {
     margin: 8px 0px;
 }
 
+.Numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000;
+    padding: 8% 0%;
+    border-radius: 56px;
+}
+
+.downloadsNumber h3 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.downloadsNumber h1 {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 98px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.downloadsNumber_UndLin {
+    width: 127px;
+    height: 4px;
+    border-radius: 4px;
+    background: #FFF;
+}
+#Rectangles3{
+    position: absolute;
+    left: 0%;
+}
+#Rectangles4{
+    position: absolute;
+    right: 0%;
+    width: auto;
+    height: 3rem;
+}
 .footer {
     background-color: black;
     border-radius: 56px;
