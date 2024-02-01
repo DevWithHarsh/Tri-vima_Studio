@@ -550,6 +550,108 @@ h1 {
     width: auto;
     height: 3rem;
 }
+.appriciation{
+    border: 2px solid red;
+    background-color: #000;
+    margin: 150px 150px;
+}
+.appriciation_title{
+    border: 2px solid red;
+}
+.appriciation_blocks{
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2% 2%;
+}
+.appriciation_block1{
+    border: 2px solid red;
+}
+.appriciation_block1 p,h2,h3{
+    color: #ffffff;
+}
+.appriciation_p{
+    display: flex;
+    align-items: center;
+}
+.appriciation_p p{
+        font-size: 11px;
+}
+.appriciation_h2{
+    display: flex;
+    align-items: center;
+}
+.appriciation_h2 h2{
+    font-size: 30px;
+}
+.appriciation_h3{
+    display: flex;
+    align-items: center;
+}
+.ourTeam{
+    display: flex;
+    width: 80rem;
+}
+.teamPhoto{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.teamMember{
+    margin: 3% 6%;
+}
+.team{
+    background-color: #fff;
+    border-radius: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.teamTitle{
+    width: auto;
+    margin: 100px 150px
+}
+.teamTitle h3{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.teamTitle h1{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#underline4{
+    width: 170px;
+    height: 4px;
+    border-radius: 4px;
+    background: #000;
+}
+#KnowBtn{
+    width: 114px;
+    height: 37px;
+    display: flex;
+    padding: 0px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 64px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    margin-top: 15%;
+}
+#KnowBtn:hover{
+    background-color: #000;
+    border: 2px solid white;
+    color: white;
+}
 .footer {
     background-color: black;
     border-radius: 56px;
