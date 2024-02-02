@@ -553,10 +553,25 @@ h1 {
 .appriciation{
     border: 2px solid red;
     background-color: #000;
-    margin: 150px 150px;
+    margin: 150px 30px;
 }
 .appriciation_title{
     border: 2px solid red;
+}
+.appriciation_title h1{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.underline5{
+    width: 230px;
+    height: 4px;
+    border-radius: 4px;
+    background: #ffffff;
+    position: relative;
 }
 .appriciation_blocks{
     border: 2px solid red;
@@ -567,6 +582,7 @@ h1 {
 }
 .appriciation_block1{
     border: 2px solid red;
+    margin: 0% 2%;
 }
 .appriciation_block1 p,h2,h3{
     color: #ffffff;
